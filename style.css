@@ -1,0 +1,112 @@
+/* navbar */
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}
+
+/* Foto Profil and About Me */
+.profile-picture {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-top: 5rem;
+}
+
+.h2 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+  padding: 3rem;
+}
+
+/* form */
+.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* card */
+.card-body {
+  height: 600px;
+}
+
+/* My Activity */
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slides {
+  display: none;
+}
+
+.slide {
+  width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* Contact Me */
+#contact-me {
+  padding-bottom: 7rem;
+}
+
+/* Apa itu progrraming */
+#what-is-programming {
+  padding: 5rem;
+}
+
+.pagination {
+  padding: 6rem;
+}
